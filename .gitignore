@@ -1,0 +1,6 @@
+*.swp
+results_neofetch/*
+*.src.rpm
+*.tar.gz
+bodhi.template.last
+clog
