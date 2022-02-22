@@ -1,7 +1,7 @@
 %undefine _disable_source_fetch
 Name:           neofetch
 Version:        7.1.0
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        CLI system information tool written in Bash
 
 License:        MIT
@@ -50,6 +50,9 @@ sed 's,/usr/bin/env bash,/usr/bin/bash,g' -i neofetch
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Tue Feb 22 2022 Ultramarine Release Tracking Service - 7.1.0-7
+- Mass rebuild for release um36
+
 * Tue Nov 16 2021 Cappy Ishihara <cappy@cappuchino.xyz> 7.1.0-6
 - new package built with tito
 
